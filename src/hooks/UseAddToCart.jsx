@@ -1,7 +1,7 @@
 
 
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import authaxiosInstance from '../api/authAxiosInstance';
+import authaxiosInstance from '../api/authaxiosInstance';
 
 
 export default function useAddToCart() {

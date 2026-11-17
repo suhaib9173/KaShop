@@ -1,5 +1,5 @@
 
-import authaxiosInstance from '../api/authAxiosInstance'
+import authaxiosInstance from '../api/authaxiosInstance'
 import { useQuery } from '@tanstack/react-query';
 import { useAuthStore } from '../store/useAuthSotre';
 
