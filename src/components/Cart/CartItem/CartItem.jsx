@@ -1,9 +1,10 @@
 import { Box, IconButton, Paper, Typography } from "@mui/material";
 
-import useUpdateCartItem from "../../../hooks/useUpdateCartItem";
+import useUpdateCartItem from "../../../hooks/UseUpdateCartItem";
+import useRemoveItemCart from "../../../hooks/UseRemoveItemCart";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import useRemoveItemCart from "../../../hooks/useRemoveItemCart";
+
 import DeleteIcon from "@mui/icons-material/Delete";
 import { toast } from "react-toastify";
 export default function CartItem({ item }) {
