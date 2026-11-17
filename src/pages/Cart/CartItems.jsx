@@ -5,7 +5,7 @@ import { useAuthStore } from '../../store/useAuthSotre';
 import { Link } from 'react-router';
 import CartSummary from '../../components/Cart/CartSummary/CartSummary';
 import CartItem from '../../components/Cart/CartItem/CartItem';
-import useCart from '../../hooks/useCart';
+import useCart from "../../hooks/UseCart";
 
 
 export default function CartItems() {

@@ -7,7 +7,8 @@ import ReviewItem from '../components/ReviewItem/ReviewItem';
 
 import { useAuthStore } from '../store/useAuthSotre';
 import { Slide, toast } from 'react-toastify';
-import useAddToCart from '../hooks/useAddToCart';
+import useAddToCart from "../hooks/UseAddToCart";
+
 
 
 export default function ProductDetails() {
